@@ -1,0 +1,18 @@
+# Notas Python
+
+""" Manejo de archivos
+
+con la funcion open (filename, accion), se pueden abrir archivos de texto plano 
+acciones: 'r' = read
+          'w' = Write
+          'b' = binary mode
+          'a' = append -> agrega al final del documento
+siempre se debe cerrar el documento con file.close()
+ """
+ # python orientado a objetos 
+Los objetos tienen atributos que se pueden definir (atributos guardan estados de los objetos)
+variables de instancia -> como el color de un coche
+
+ -> Clases: 
+    
+
