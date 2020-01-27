@@ -12,7 +12,13 @@ class Agenda:
         self._contacts = []
 
     def add(self, name, phone, email):
+        contact = Contact(name, phone, email)
         print('name: {}, phone: {}, email: {}'.format(name, phone, email))
+        self._contacts.append(contact)
+        
+    def show_all(self):
+        for contact in self._contacts:
+             
 
 def run():
 
@@ -35,6 +41,7 @@ def run():
             phone = (str(input('Escribe el numero del contacto: ')))
             email = (str(input('Escribe el email del contacto: ')))
             contact_book.add(name, phone, email)
+            self._contacts.append(Contact)
 
         elif command == 'ac':
             print('actualizar contacto')
@@ -47,6 +54,7 @@ def run():
 
         elif command == 'l':
             print ('lista de contactos')
+
 
         elif command =='s':
             break
